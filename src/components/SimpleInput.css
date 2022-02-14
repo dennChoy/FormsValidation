@@ -1,0 +1,35 @@
+.UserForm {
+    margin: 50px auto;
+    width: 50%;
+    background: #004643;
+    border-radius: 50px;
+    padding: 30px;
+    color: white;
+}
+
+.FormGroup {
+    display:grid;
+    margin: 10px;
+}
+
+.error-text{
+    color: red;
+}
+
+.FormActions {
+    margin: 10px;
+    text-align: right;
+}
+
+.btnSubmit {
+    border-radius: 20px;
+    height: 50px;
+    width: 150px;
+    font-size: 15px;
+    background: #c29f02;
+}
+
+.btnSubmit:hover{
+    background: #cecabb;
+    cursor: pointer;
+}
